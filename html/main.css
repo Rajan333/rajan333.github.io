@@ -1,75 +1,67 @@
-body{
 
-	background-image: url("/Users/rajan/web/assets/background.jpg");
-	background-color: #999;
-	font-family: Arial;
-	margin: 0 auto;
-	height: 100%;
-}
-
-.top-container {
-	background-image: url("/Users/rajan/web/assets/image-bg.jpg");
-	margin-top: 5%;
-	height: 10%;
-}
-
-header{
-	background: black;
-	color: white;
-}
-
-ul{
-	margin-top: 12px;
-    margin-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-bottom-width: 20px;
-}
-
-ul li{
-	width: 130px;
-    height: 68px;
-    margin-right: 80px;
-    margin-top: 450px;
-	color: white;
-	text-align: center;
+.top-container{
 	display: inline-block;
-	
+    width: 100%;
+    background-color: moccasin;
+    margin-top: 5%;
+    min-width: 50%;
 }
 
 .inner-container-left{
-	/*height: 100%;
-	width: 50%;
-	float: left;*/
-}
-
-.inner-container-right{
-	/*height: 100%;
-	width: 50%;
-	float: right;*/
+	display: inline-block;
+    width: 40%;
+    float: left;
+    margin: 1em;
 }
 
 .profile-image{
-	margin: 30px;
-	height: 85%;
-	width: 30%;
-	
+	border-style: ridge;
+	border-radius: 2%;
+	border-color: #ffe4b5;
+}
+
+.inner-container-right{
+	display: inline-block;
+    float: left;
+    margin-top: 5%;
 }
 
 .name{
-	font-size: 2em;
-	font-family: sans-serif;
 	text-align: center;
-	color: white;
-	text-transform: uppercase;
-	font-weight: bold;
-
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 77px;
+    font-variant: small-caps;
 }
+
 .designation{
-	font-size: 1em;
-	font-family: sans-serif;
 	text-align: center;
-	color: white;
-	text-transform: capitalize;
-	font-style: italic;	
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-variant: small-caps;
+}
+
+.bottom-container{
+	height: 50%;
+}
+
+.details{
+	display: inline-block;
+	float: left;
+	margin: 5%;
+	width: 15%;
+}
+
+.image-details{
+	margin: 3%;
+}
+
+.text-details{
+display: inline-block;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: inherit;
+    margin: 10%;
 }
