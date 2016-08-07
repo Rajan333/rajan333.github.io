@@ -111,3 +111,39 @@
     bottom: 0;
     right: 0;
 }
+
+.follow-heading{
+    font-size: xx-large;
+    font-family: serif;
+    font-variant: small-caps;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+}
+
+.follow-items{
+    margin-left: auto;
+    margin-right: auto;
+    width: 11em;
+}
+
+.facebook{
+
+    display: inline-block;
+    float: left;
+    margin: 2%;
+}
+
+.twitter{
+    display: inline-block;
+    float: left;
+    margin: 2%;
+}
+
+.linkedin{
+    display: inline-block;
+    float: left;
+    margin: 2%;
+}
