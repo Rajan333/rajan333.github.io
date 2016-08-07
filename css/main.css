@@ -65,3 +65,58 @@
     font-style: inherit;
     margin: 10%;
 }
+
+.contact-body{
+    background: url("https://www.concrete5.org/application/files/1414/5391/9632/homepage_develop_background.jpg");
+    background-repeat: round;
+    color: bisque;
+
+}
+
+.heading{
+    font-size: -webkit-xxx-large;
+    font-family: serif;
+    font-variant: small-caps;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 6%;
+}
+
+.contact{
+    margin-top: 8%;
+}
+
+.mail{
+
+    font-family: sans-serif;
+    font-size: xx-large;
+    margin-bottom: 3%;
+    text-align: center;
+
+
+}
+
+.phone{
+
+    font-family: sans-serif;
+    font-size: xx-large;
+    margin-bottom: 3%;
+    text-align: center;
+
+
+}
+
+.footer1{
+    position: fixed;
+    bottom: 0;
+    left:0;
+
+}
+
+.footer2{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
