@@ -147,3 +147,12 @@
     float: left;
     margin: 2%;
 }
+
+.home{
+    margin: 2%;
+    color: wheat;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+
+}
