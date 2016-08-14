@@ -42,27 +42,32 @@
 }
 
 .bottom-container{
-	height: 50%;
+	height: 40%;
 }
 
 .details{
-	display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 	float: left;
-	margin: 5%;
-	width: 15%;
+	margin: 0 auto;
+    padding: 20px;
+	min-width: 20%;
 }
 
 .image-details{
-	margin: 3%;
+	margin: 0 auto;
+    text-align: center;
 }
 
 .text-details{
-    display: inline-block;
     font-family: sans-serif;
     font-weight: bolder;
     font-size: x-large;
     font-style: inherit;
-    margin: 10%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3%;
 }
 
 .contact-body{
@@ -80,10 +85,6 @@
     text-decoration: underline;
     text-transform: uppercase;
     margin-bottom: 6%;
-}
-
-.contact{
-    margin-top: 8%;
 }
 
 .mail{
@@ -146,4 +147,18 @@
     display: inline-block;
     float: left;
     margin: 2%;
+}
+
+.aboutme-background{
+    background-color: aliceblue;
+}
+
+.aboutme-text{
+    font-family: cursive;
+    font-size: xx-large;
+
+}
+
+.footer-container{
+    height: 10%;
 }
