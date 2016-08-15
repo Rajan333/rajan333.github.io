@@ -1,16 +1,23 @@
+body{
+    background: url("../assets/images/background.jpg");
+}
+
 .top-container{
 	display: inline-block;
     width: 100%;
     background-color: moccasin;
     margin-top: 5%;
     min-width: 50%;
+    border-radius:1%;
 }
 
 .inner-container-left{
 	display: inline-block;
     width: 40%;
     float: left;
-    margin: 1em;
+    margin-top: -27px; 
+    margin-left: 1.3em;
+    margin-bottom: 1.5em;
 }
 
 .profile-image{
@@ -68,6 +75,7 @@
     margin: 0 auto;
     text-align: center;
     padding: 3%;
+    color: bisque;
 }
 
 .contact-body{
@@ -103,12 +111,14 @@
 }
 
 .footer1{
+    color: bisque;
     position: fixed;
     bottom: 0;
     left:0;
 }
 
 .footer2{
+    color: bisque;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -150,15 +160,13 @@
     margin: 2%;
 }
 
-<<<<<<< HEAD
 .home{
     margin: 2%;
-    color: wheat;
+    color: bisque;
     font-family: sans-serif;
     font-weight: 800;
     text-decoration: underline;
 
-=======
 .aboutme-background{
     background-color: aliceblue;
 }
@@ -171,5 +179,4 @@
 
 .footer-container{
     height: 10%;
->>>>>>> develop
 }
