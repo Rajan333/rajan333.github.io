@@ -1,5 +1,9 @@
 .main-body{
     background: url("../assets/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+
 }
 
 .top-container{
@@ -167,18 +171,16 @@
     font-weight: 800;
     text-decoration: underline;
 }
-.aboutme-background{
-    background-color: aliceblue;
-}
-
-.aboutme-text{
-    font-family: cursive;
-    font-size: xx-large;
-
-}
 
 .footer-container{
     height: 10%;
+}
+
+.aboutme-body{
+    background: url("../assets/images/linux.jpg");
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
 }
 
 .aboutme-pic{
@@ -187,8 +189,9 @@
 }
 
 .my-pic{
-    position: absolute;
-    left: 10;
+    display: inline-block;
+    float: left;
+    margin: 1em;
 }
 
 .linux-inside{
@@ -197,7 +200,33 @@
 }
 
 .aboutme-text{
+    color: azure;
     text-align: justify;
     font-family: fantasy;
     font-size: xx-large;
+    max-width: 75%;
+}
+.upper-container{
+    height: 50%;
+}
+
+.about-me{
+    display: inline-block;
+    float: left;
+    color: azure;
+    font-family:  cursive;
+    font-weight: bolder;
+    font-size: 75px;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+.aboutme-img{
+    
+            border-radius: 15%;
+            margin: auto;
+            image-rendering: pixelated;
+            border: azure double;
+            
 }
