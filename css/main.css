@@ -233,6 +233,11 @@
 .blog-body{
     background-color: azure; 
 }
+
 .working-img{
     text-align: -webkit-center;
 }
+
+a{ 
+    text-decoration: none;
+ }
