@@ -23,7 +23,7 @@
 .profile-image{
 	border-style: ridge;
 	border-radius: 2%;
-	border-color: #ffe4b5;
+	border-color: currentColor;
 }
 
 .inner-container-right{
