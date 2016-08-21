@@ -223,10 +223,16 @@
 }
 
 .aboutme-img{
-    
-            border-radius: 15%;
-            margin: auto;
-            image-rendering: pixelated;
-            border: azure double;
+    border-radius: 15%;
+    margin: auto;
+    image-rendering: pixelated;
+    border: azure double;
             
+}
+
+.blog-body{
+    background-color: azure; 
+}
+.working-img{
+    text-align: -webkit-center;
 }
