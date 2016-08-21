@@ -1,11 +1,11 @@
-body{
+.main-body{
     background: url("../assets/images/background.jpg");
 }
 
 .top-container{
 	display: inline-block;
     width: 100%;
-    background-color: moccasin;
+    background-color: #aaa;
     margin-top: 5%;
     min-width: 50%;
     border-radius:1%;
