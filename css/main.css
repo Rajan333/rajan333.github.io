@@ -180,3 +180,24 @@
 .footer-container{
     height: 10%;
 }
+
+.aboutme-pic{
+    display: -webkit-inline-box;
+    height: 50%;
+}
+
+.my-pic{
+    position: absolute;
+    left: 10;
+}
+
+.linux-inside{
+    position: absolute;
+    right: 10;
+}
+
+.aboutme-text{
+    text-align: justify;
+    font-family: fantasy;
+    font-size: xx-large;
+}
