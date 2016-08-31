@@ -84,7 +84,9 @@
 
 .contact-body{
     background: url("../assets/images/contact-bg.jpg");
-    background-repeat: round;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
     color: bisque;
     margin-top:10%;
 }
@@ -140,9 +142,10 @@
 }
 
 .follow-items{
-    margin-left: auto;
+
+    margin-left: 35%;
     margin-right: auto;
-    width: 11em;
+    width: 100%;
 }
 
 .facebook{
@@ -164,6 +167,11 @@
     margin: 2%;
 }
 
+.github{
+    display: inline-block;
+    float: left;
+    margin: 2%;
+}
 .home{
     margin: 2%;
     color: bisque;
